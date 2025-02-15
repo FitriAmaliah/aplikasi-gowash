@@ -38,18 +38,6 @@
                     class="block w-full border border-gray-300 rounded-md shadow-sm p-3 bg-gray-100 focus:outline-none" 
                     readonly>
             </div>
-
-            <!-- Nomor Antrian -->
-            <div class="flex flex-col space-y-4 mb-6">
-                <label for="nomor_antrian" class="block text-sm font-medium text-gray-700">Nomor Antrian</label>
-                <input 
-                    type="text" 
-                    id="nomor_antrian" 
-                    name="nomor_antrian" 
-                    value="{{ $nomor_antrian ?? 'Belum Ada Nomor Antrian' }}" 
-                    class="block w-full border border-gray-300 rounded-md shadow-sm p-3 focus:outline-none focus:ring-2 focus:ring-blue-400" 
-                    readonly>
-            </div>
             
                 <!-- Jenis Kendaraan -->
                 <div class="flex flex-col space-y-4 mb-6">
